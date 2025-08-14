@@ -4,7 +4,7 @@ os: linux
 files:
   - source: app/app.jar
     destination: /home/ec2-user/app
-  - source: build.json
+  - source: app/public/build.json
     destination: /opt/demo
   - source: scripts/
     destination: /home/ec2-user/scripts
